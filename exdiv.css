@@ -1,0 +1,6 @@
+div * p {color:hotpink}
+div * li {color: navy}
+
+ .menu li .sel {font-size: 25pt;color:royalblue}
+
+ #menu > p {color:darkorange;}
