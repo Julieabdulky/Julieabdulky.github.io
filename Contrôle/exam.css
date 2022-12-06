@@ -15,7 +15,15 @@ p {color: yellow;}
 div p {color : slateblue;}
 
 /* Exercice 4*/
-ol {list-style-type: upper-roman;}
-{list-style-type: lower-roman;}
+ol li {list-style-type: upper-roman;}
+ul li {list-style-type: lower-roman;}
 
 /* Exercice 5*/
+nav{
+position : fixed;
+left : 5px;
+width:100px;
+border : 2px solid hotpink;
+vertical-align: sub;
+display: ruby-base;
+}
