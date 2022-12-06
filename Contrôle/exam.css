@@ -15,3 +15,7 @@ p {color: yellow;}
 div p {color : slateblue;}
 
 /* Exercice 4*/
+ol {list-style-type: upper-roman;}
+{list-style-type: lower-roman;}
+
+/* Exercice 5*/
