@@ -1,0 +1,17 @@
+/*Exercice 1*/
+body {background-image:url(ciment.jpg)}
+h1 {text-align: center;}
+h2 {color : blue; background-color: grey;}
+p{text-align: justify;
+text-indent: 16px;
+}
+
+/*Exercice 2*/
+[class="surligne"]{background-color: seashell;}
+
+/*Exercice 3*/
+p {background-color: seashell;}
+p {color: yellow;}
+div p {color : slateblue;}
+
+/* Exercice 4*/
