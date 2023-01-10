@@ -1,0 +1,63 @@
+title {color : black;}
+body {background-color: whitesmoke;} /* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+h1 {text-align : center; color: black;} /* Affichage du titre */
+div {text-align: right;}
+img {
+  width: 200px;
+  height:200px;
+} /* Modificaion de la taille et de l'emplacement du logo*/
+
+button {background-color: lightblue} /*changement du style des boutons*/
+
+
+p {text-align :left;} /* alignement du paragraphe*/
+ul {text-align: right; color : grey;}
+
+ h3 { /* Affichage du titre */ color: black;
+    font-size :15px;
+    text-align: left;
+  }
+
+ol {text-align: left}
+label {text-align: left;}
+  
+@media print {
+  fieldset {
+    border: none;
+  }
+
+  legend {
+    display: none;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+} 
+  input[type="checkbox"]:not(:checked) + label{
+    display: none;
+} 
+  
+  input[type="checkbox"]:checked + label::before {
+    content: "- ";
+  }
+    
+}
+/*On prend celui qui est checké, puis dans celui qui est checké on recupère le label. Juste avant le label je met le contenu du contexte (càd un tiret a la place des cases), j'ai recupéré l'information*/
+
+.Impression {border:none;}/* pour ne pas afficher lors de l'imprssion*/
+
+#page { /* Modifications : suppression de la bordure - marges */
+    margin :5;
+    border :none;
+  }
+  
+  #banner, #menuright, #footer { /* Les éléments qui ne seront pas affichés  */
+    display :none;
+  }
+  
+  .checkbox {visibility: hidden;
+  } /*ne plus voir les cases à cocher*/
+  
+{visibility: hidden;
+  }
+/* Pour cacher ce sont les dernières balises */ 
